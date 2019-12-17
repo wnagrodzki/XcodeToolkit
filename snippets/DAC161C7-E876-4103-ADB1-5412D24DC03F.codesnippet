@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mvpp</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>protocol &lt;#T##Name###&gt;Presenter: AnyObject {
+    
+    var userInterface: &lt;#T##Name###&gt;UserInterface? { get set }
+    
+    func userInterfaceDidLoad()
+}
+
+final class &lt;#T##Name###&gt;PresenterImpl {
+    
+    weak var userInterface: &lt;#T##Name###&gt;UserInterface?
+}
+
+extension &lt;#T##Name###&gt;PresenterImpl: &lt;#T##Name###&gt;Presenter {
+    
+    func userInterfaceDidLoad() {
+        
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DAC161C7-E876-4103-ADB1-5412D24DC03F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>MVP Presenter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
